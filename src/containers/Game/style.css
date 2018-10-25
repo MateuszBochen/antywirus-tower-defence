@@ -1,0 +1,54 @@
+.user-panel {
+    width: 300px;
+    float: left;
+
+}
+
+.user-panel .score {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.game-panel {
+    float: left;
+}
+
+.shop {
+    display: flex;
+}
+
+.shop .shop-item {
+    flex: 1;
+
+}
+.shop .shop-item img{
+    display: block;
+    margin: 0 auto;
+}
+.shop .shop-item > div {
+    margin: 5px;
+    background-color: rgba(156,168,169,0.5);
+    padding: 5px;
+    width: calc(100% - 20px);
+}
+
+.shop .shop-item span {
+    display: block;
+    text-align: center;
+}
+
+.show-range {
+    border: solid 5px #2571ff;
+    background-color: rgba(37, 13, 255, 0.5);
+    border-radius: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
